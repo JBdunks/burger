@@ -1,4 +1,4 @@
-INSERT INTO burgers(burger_name) VALUES('THe Silentil Night Burger');
+INSERT INTO burgers(burger_name) VALUES('The Silentil Night Burger');
 INSERT INTO burgers(burger_name,devoured) VALUES('Gourdon-Hamsey Burger', true);
 INSERT INTO burgers(burger_name) VALUES('Plymouth Roquefort Burger');
 INSERT INTO burgers(burger_name,devoured) VALUES('Chesses Is Born Burger',true);
