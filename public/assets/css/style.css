@@ -1,8 +1,10 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: #f6dd42;
   width: 80%;
+  list-style: none;
+  font-family: "Neucha", cursive;
 }
 
 .label {
@@ -43,15 +45,31 @@ li {
   font-size: 22px;
 }
 #center {
-  border: 1px solid black;
+  padding-top: 3%;
   height: 100vh;
   text-align: center;
+  background-image: url("bobs-menu-center.jpg");
+  background-size: cover;
 }
 #left {
   text-align: center;
+  background-image: url("bobs-menu.jpg");
+  background-size: cover;
+  padding-top: 10%;
+  padding-left: 10%;
 }
 #right {
+  padding-top: 3%;
   text-align: center;
+  background-image: url("bobs-menu-right.jpg");
+  background-size: cover;
+}
+#rightUl {
+  opacity: 50%;
+}
+#leftUl {
+  background-color: #f6dd42;
+  color: #e52132;
 }
 h2 {
   font-family: "Bangers", cursive;
@@ -60,4 +78,8 @@ h2 {
 h1 {
   font-family: "Bangers", cursive;
   color: #e52132;
+}
+#orderButton {
+  background-color: #f6dd42;
+  border: none;
 }

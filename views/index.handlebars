@@ -3,11 +3,9 @@
 
         <!--left-->
         <div class="col-sm-4 fluid" id="left">
-            <h1>Menu</h1>
 
-            <h2>Hamburger Selection</h2>
 
-            <ul>
+            <ul id="leftUl">
                 {{#each burgers}}
                 {{#unless devoured}}
                 {{> burgers/burger-block devoured=true}}
@@ -34,10 +32,10 @@
 
         <!--right-->
         <div class="col-sm fluid-4" id="right">
-            <h1>Burgers Devoured </h1>
+            <h1>Previously at Bob's </h1>
 
 
-            <ul>
+            <ul id="rightUl">
                 {{#each burgers}}
                 {{#if devoured}}
                 {{> burgers/burger-block devoured=false}}
