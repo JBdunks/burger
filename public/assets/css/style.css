@@ -2,6 +2,7 @@ li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
+  width: 80%;
 }
 
 .label {
@@ -16,4 +17,47 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+#chalk {
+  /* height: 55%;
+  width: 65%; */
+  margin: auto;
+  background-image: url("bod_blank.jpg");
+  background-size: cover;
+  padding-top: 145px;
+  padding-left: 10px;
+  display: block;
+  width: 350px;
+  height: 400px;
+  text-align: center;
+}
+
+#burger {
+  color: white;
+  font-family: "Fredericka the Great", cursive;
+  background-color: #262626;
+  border: none;
+  height: 100px;
+  width: 200px;
+  font-size: 22px;
+}
+#center {
+  border: 1px solid black;
+  height: 100vh;
+  text-align: center;
+}
+#left {
+  text-align: center;
+}
+#right {
+  text-align: center;
+}
+h2 {
+  font-family: "Bangers", cursive;
+  color: #e52132;
+}
+h1 {
+  font-family: "Bangers", cursive;
+  color: #e52132;
 }
